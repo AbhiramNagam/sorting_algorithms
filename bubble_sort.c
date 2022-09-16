@@ -12,17 +12,17 @@ void bubble_sort(int arr[],int n){
     int sorted;
     for(int i=0;i<n-1;i++)
     {
-        sorted=0;
+        //sorted=0;
         for(int j=0;j<n-1-i;j++)
         {
             if(arr[j]>arr[j+1]){
                 swap(arr,j,j+1);
                 
-                sorted=1;
+                //sorted=1;
             }
         }
-        if(sorted==1)
-            break;
+        //if(sorted==1)
+        //    break;
     }
     
 }
